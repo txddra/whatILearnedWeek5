@@ -18,7 +18,9 @@ This week has been filled with a various amount of projects and new techniques.
 _Syntax:_
 
 `if (condition){
+
 lines of code to be executed if condition is true
+
 }`
 
 
@@ -29,12 +31,18 @@ lines of code to be executed if condition is true
 
 `
 function testNum(a) {
+
   let result;
+
   if (a > 0) {
+
     result = 'positive';
+
   } else {
+
     result = 'NOT positive';
   }
+  
   return result;
 }
 `
@@ -45,9 +53,13 @@ function testNum(a) {
 _Syntax:_
 
 `if (condition){
+
 lines of code to be executed if the condition is true
+
 }else{
+
 lines of code to be executed if the condition is false
+
 }`
 
 
@@ -97,14 +109,18 @@ It looks like this:
 `
 switch(x) {
   case 'value1':  // if (x === 'value1')
+
     ...
     [break]
 
+
   case 'value2':  // if (x === 'value2')
+
     ...
     [break]
 
   default:
+
     ...
     [break]
 }
