@@ -107,21 +107,40 @@ The switch has one or more case blocks and an optional default.
 It looks like this:
 
 `
-switch(x) {
-  case 'value1':  // if (x === 'value1')
+switch (expression) 
 
-    ...
-    [break]
+{
 
 
-  case 'value2':  // if (x === 'value2')
+  case value1:
 
-    ...
-    [break]
+    //Statements executed when the
+    //result of expression matches value1
+    [break;]
 
-  default:
+  case value2:
 
-    ...
-    [break]
+    //Statements executed when the
+    //result of expression matches value2
+    [break;]
+
+  ...
+  
+  case valueN:
+    
+    //Statements executed when the
+    
+    //result of expression matches valueN
+
+    [break;]
+
+
+  [
+      default:
+
+    //Statements executed when none of
+    //the values match the value of the expression
+      [break;]]
 }
+
 `
